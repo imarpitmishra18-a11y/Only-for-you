@@ -1,0 +1,4 @@
+Add your media files to this folder and name them exactly:
+photo-1.jpg
+photo-2.jpg
+our-moment.mp4

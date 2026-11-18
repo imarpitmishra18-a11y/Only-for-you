@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#f9e8f5">
+<meta name="description" content="A little pink-and-lavender corner made with love for Yogyata (Malkin Ji).">
+<title>For My Cutie Yogu Babu ♡</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&family=Caveat:wght@500;600;700&display=swap');
+:root{--ink:#49344f;--muted:#806b87;--pink:#f6c9df;--pink2:#ffe8f2;--lav:#d9cef8;--lav2:#eee9ff;--plum:#815b91;--white:#fffafd;--shadow:0 18px 55px #8d6c9b20}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;color:var(--ink);font-family:'DM Sans',sans-serif;background:linear-gradient(135deg,#fff2f7 0%,#f5efff 48%,#fff8fb 100%);overflow-x:hidden}
+button{font:inherit;cursor:pointer}a{color:inherit}.ambient{position:fixed;inset:0;pointer-events:none;z-index:-1;overflow:hidden}.blob{position:absolute;border-radius:50%;filter:blur(3px);opacity:.48;animation:drift 13s ease-in-out infinite alternate}.blob.one{width:290px;height:290px;background:#f7cce2;top:4%;left:-110px}.blob.two{width:340px;height:340px;background:#d9d0ff;right:-140px;top:35%;animation-delay:-4s}.blob.three{width:220px;height:220px;background:#ffe2ee;bottom:-80px;left:35%;animation-delay:-8s}
+@keyframes drift{to{transform:translate(35px,-30px) scale(1.12)}}@keyframes float{0%,100%{transform:translateY(0) rotate(-4deg)}50%{transform:translateY(-13px) rotate(4deg)}}@keyframes pulse{50%{transform:scale(1.08)}}@keyframes pop{0%{transform:scale(.65);opacity:0}75%{transform:scale(1.06)}100%{transform:scale(1);opacity:1}}@keyframes twinkle{0%,100%{opacity:.25;transform:scale(.7)}50%{opacity:1;transform:scale(1.2)}}@keyframes rise{to{transform:translateY(-110vh) rotate(35deg);opacity:0}}@keyframes wiggle{0%,100%{transform:rotate(0)}25%{transform:rotate(-5deg)}75%{transform:rotate(5deg)}}
+nav{position:sticky;top:0;z-index:10;display:flex;justify-content:space-between;align-items:center;padding:14px clamp(16px,5vw,64px);backdrop-filter:blur(18px);background:#fff9fccc;border-bottom:1px solid #fff}.brand{font-family:'Caveat',cursive;font-size:1.65rem;color:#855d92}.navlinks{display:flex;gap:18px;font-size:.86rem;color:#765d80}.navlinks a{text-decoration:none}.navlinks a:hover{color:#b15d91}
+main{max-width:1100px;margin:auto;padding:0 20px}.hero{min-height:88vh;display:grid;place-items:center;text-align:center;padding:64px 0 48px;position:relative}.hero-inner{max-width:760px;animation:pop .9s both}.eyebrow{display:inline-block;padding:8px 15px;border:1px solid #e8d6ef;border-radius:30px;background:#ffffffa8;color:#8c6796;font-size:.78rem;letter-spacing:.08em;text-transform:uppercase}.hero h1{font:700 clamp(3rem,9vw,6.6rem)/.98 'Playfair Display',serif;margin:25px 0 16px;letter-spacing:-.045em}.hero h1 span{display:block;color:#b56e9e;font-style:italic}.hero p{font-size:clamp(1rem,2.5vw,1.2rem);line-height:1.8;color:var(--muted);max-width:590px;margin:0 auto 25px}.heart-orbit{font-size:3.3rem;display:inline-block;animation:float 3s ease-in-out infinite;filter:drop-shadow(0 8px 10px #c17fa855)}.btn{border:0;border-radius:999px;padding:14px 22px;background:linear-gradient(110deg,#d98bb8,#a58cdb);color:white;font-weight:700;box-shadow:0 10px 25px #b98dbb50;transition:.2s;display:inline-flex;align-items:center;gap:9px;text-decoration:none}.btn:hover{transform:translateY(-3px);box-shadow:0 14px 30px #b98dbb70}.btn.secondary{background:#fff;color:#865e91;border:1px solid #e8d9f0;box-shadow:none}.tiny{font-size:.82rem;color:#9a849e;margin-top:14px}
+section{padding:68px 0;scroll-margin-top:76px}.section-head{text-align:center;margin-bottom:30px}.kicker{color:#b16e9d;font-size:.76rem;letter-spacing:.14em;text-transform:uppercase;font-weight:700}.section-head h2{font:600 clamp(2rem,5vw,3.2rem) 'Playfair Display',serif;margin:10px 0;color:#61466c}.section-head p{color:var(--muted);line-height:1.7;margin:0 auto;max-width:600px}
+.panel{background:#ffffffb8;border:1px solid #fff;box-shadow:var(--shadow);border-radius:28px;padding:clamp(22px,5vw,42px);backdrop-filter:blur(12px)}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.tile{background:linear-gradient(145deg,#fffafd,#f7f0ff);border:1px solid #f1e5f3;border-radius:22px;padding:22px;text-align:left;min-height:180px;transition:.25s;position:relative;overflow:hidden}.tile:hover{transform:translateY(-6px) rotate(-.5deg);box-shadow:0 14px 30px #9e7aaa20}.tile .emoji{font-size:1.8rem}.tile h3{font:600 1.25rem 'Playfair Display',serif;margin:13px 0 8px}.tile p{color:var(--muted);line-height:1.65;font-size:.92rem;margin:0}.tile:after{content:'♡';position:absolute;right:15px;bottom:3px;font-size:3.8rem;color:#f4d7e8;opacity:.55}
+.revealbox{text-align:center;max-width:690px;margin:auto}.reveal-message{min-height:116px;display:grid;place-items:center;padding:20px;color:#71547d;font:600 clamp(1.35rem,4vw,2rem) 'Playfair Display',serif;line-height:1.4}.counter{color:#a58aa9;font-size:.85rem;margin-bottom:12px}
+.letter{max-width:720px;margin:auto;background:linear-gradient(145deg,#fffdfd,#fff3f8);border:1px solid #f1ddea;border-radius:8px 28px 28px 28px;padding:clamp(25px,6vw,52px);box-shadow:var(--shadow);position:relative}.letter:before{content:'♡';position:absolute;right:25px;top:13px;font-size:2rem;color:#e5b5d0}.letter .hand{font:600 2rem 'Caveat',cursive;color:#a36591}.letter p{color:#715e77;line-height:1.9;font-size:1rem}.letter .sign{font:600 1.8rem 'Caveat',cursive;color:#a36591;text-align:right}
+.promise-list{display:grid;grid-template-columns:1fr 1fr;gap:12px;max-width:760px;margin:auto}.promise{display:flex;gap:12px;align-items:flex-start;background:#ffffffb8;border:1px solid #f0e3f2;padding:16px;border-radius:16px;color:#725d79;line-height:1.5}.promise b{color:#b16e9d}
+.jar-wrap{text-align:center}.jar{font-size:5rem;display:inline-block;animation:float 3.5s infinite;filter:drop-shadow(0 10px 15px #c58eae55)}.jar-hint{color:var(--muted);margin:8px 0 18px}.note{background:#fff8fc;border:1px dashed #d9b8d1;border-radius:18px;padding:22px;max-width:520px;margin:18px auto 0;font:600 1.35rem 'Caveat',cursive;color:#815c87;min-height:84px;display:grid;place-items:center}
+.final-card{text-align:center;position:relative;overflow:hidden}.final-card h2{font:600 clamp(2.3rem,7vw,4.3rem) 'Playfair Display',serif;color:#8e6296;margin:8px}.final-card p{color:var(--muted);line-height:1.8;max-width:560px;margin:12px auto 24px}.surprise{font-size:4rem;display:block;animation:pulse 2s infinite}.footer{text-align:center;padding:35px 15px 55px;color:#a28da7;font-size:.85rem}.footer strong{color:#a36591}
+.floating{position:fixed;bottom:-30px;z-index:20;pointer-events:none;animation:rise linear forwards;text-shadow:0 3px 8px #bd8ebc55}.toast{position:fixed;left:50%;bottom:22px;transform:translateX(-50%);background:#674e70;color:white;padding:12px 18px;border-radius:99px;box-shadow:var(--shadow);z-index:30;opacity:0;transition:.3s;pointer-events:none}.toast.show{opacity:1;bottom:32px}
+.modal{position:fixed;inset:0;background:#39264199;backdrop-filter:blur(8px);display:none;place-items:center;padding:20px;z-index:50}.modal.open{display:grid}.modal-card{max-width:520px;width:100%;background:#fff9fd;border-radius:28px;padding:30px;text-align:center;box-shadow:0 20px 80px #24142c55;animation:pop .35s}.modal-card h3{font:600 2rem 'Playfair Display',serif;color:#875c91}.modal-card p{color:#806b87;line-height:1.7}
+@media(max-width:760px){.grid{grid-template-columns:1fr 1fr}.navlinks{gap:10px;font-size:.75rem}.navlinks a:nth-child(2){display:none}.hero{min-height:82vh}.promise-list{grid-template-columns:1fr}}
+@media(max-width:480px){.grid{grid-template-columns:1fr}.navlinks a{font-size:.72rem}.brand{font-size:1.4rem}nav{padding:12px}.tile{min-height:unset}}
+@media(prefers-reduced-motion:reduce){*,*:before,*:after{scroll-behavior:auto!important;animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}}
+
+.memory-grid{display:grid;grid-template-columns:1fr 1fr;gap:18px;max-width:850px;margin:auto}
+.memory-card{background:#ffffffc9;border:1px solid #fff;border-radius:24px;padding:14px;box-shadow:var(--shadow);overflow:hidden}
+.memory-frame{width:100%;aspect-ratio:4/5;border-radius:17px;overflow:hidden;background:linear-gradient(145deg,#fce5f0,#e9e2ff);display:grid;place-items:center;position:relative}
+.memory-frame img{width:100%;height:100%;object-fit:cover;display:block}
+.memory-placeholder{text-align:center;padding:18px;color:#8a6e94;line-height:1.6}
+.memory-placeholder strong{display:block;font:600 1.2rem 'Playfair Display',serif;margin:8px}
+.memory-caption{padding:13px 5px 3px}
+.memory-caption h3{font:600 1.2rem 'Playfair Display',serif;margin:0 0 5px;color:#684b73}
+.memory-caption p{font-size:.88rem;color:var(--muted);line-height:1.5;margin:0}
+.video-card{grid-column:1/-1;max-width:560px;width:100%;justify-self:center}
+.video-frame{aspect-ratio:16/9}
+.memory-frame video{width:100%;height:100%;object-fit:cover;display:block;background:#eadff2}
+.gallery-note{font-size:.82rem;color:#987fa0;text-align:center;margin:18px auto 0;max-width:650px;line-height:1.6}
+@media(max-width:600px){.memory-grid{grid-template-columns:1fr}.video-card{grid-column:auto}.memory-frame{aspect-ratio:4/4}}
+
+</style>
+</head>
+<body>
+<div class="ambient"><div class="blob one"></div><div class="blob two"></div><div class="blob three"></div></div>
+<nav><div class="brand">a little page for you ♡</div><div class="navlinks"><a href="#ways">Little apologies</a><a href="#memories">Our memories</a><a href="#letter">My letter</a><a href="#surprise">Surprise ✨</a></div></nav>
+<main>
+<header class="hero" id="top"><div class="hero-inner">
+<div class="heart-orbit">💗</div><br><span class="eyebrow">a tiny universe, made just for you</span>
+<h1>Hey, my cutie <span>Yogu Babu!</span></h1>
+<p>To Yogyata (Malkin Ji), the one and only owner of this very tiny corner of the internet. I have something to say… and apparently, one “sorry” wasn't enough. 🥺</p>
+<a class="btn" href="#start">Come, let me explain <span>♡</span></a><div class="tiny">P.S. No pressure. Just a little love, honesty and a few silly surprises.</div>
+</div></header>
+<section id="start"><div class="panel revealbox"><div class="kicker">first things first</div><h2 style="font:600 clamp(2rem,5vw,3rem) 'Playfair Display',serif;margin:12px 0">I'm genuinely sorry.</h2><p style="color:var(--muted);line-height:1.8">I don't want to brush your feelings aside or pretend that a cute website can fix everything. I just wanted to make something thoughtful to say that I care, I hear you, and I'm willing to do better.</p><div style="font-size:2rem;margin:16px">🥺 🫶 🌷</div><a class="btn secondary" href="#ways">Show me the little apologies ↓</a></div></section>
+<section id="ways"><div class="section-head"><div class="kicker">not just one sorry</div><h2>A few ways from my heart</h2><p>Some serious, some silly, all sent with care. Tap any card for its little message.</p></div>
+<div class="grid">
+<button class="tile" data-title="The honest one" data-message="I'm sorry for the part I played in hurting you. Your feelings deserve to be heard, not argued away. I want to understand, not just win a conversation."><span class="emoji">💌</span><h3>The honest one</h3><p>No excuses. Just accountability, care and a real intention to do better.</p></button>
+<button class="tile" data-title="The tiny silly one" data-message="Official announcement: this babu has submitted a sincere apology to Malkin Ji. The committee (also me) recommends listening better and fewer silly mistakes. 😭"><span class="emoji">😭</span><h3>The silly one</h3><p>Breaking news: Malkin Ji deserves better than my nonsense.</p></button>
+<button class="tile" data-title="The soft one" data-message="If I could send a little hug through this screen, I'd send the gentlest one. I hope you feel cared for, even while you're upset with me."><span class="emoji">🧸</span><h3>The soft one</h3><p>A virtual hug, wrapped in the fluffiest blanket.</p></button>
+<button class="tile" data-title="The poetic one" data-message="If my words made your day cloudy, I hope my actions can slowly bring back a little sunshine. No rushing the sky. I'll let it clear in its own time. 🌤️"><span class="emoji">🌙</span><h3>The poetic one</h3><p>For the days when words need a little stardust.</p></button>
+<button class="tile" data-title="The promise" data-message="I can't promise I'll never make a mistake. I can promise to take responsibility, communicate more gently, and show you through actions that I mean what I say."><span class="emoji">🌷</span><h3>The promise</h3><p>Not a grand claim. A small, sincere commitment.</p></button>
+<button class="tile" data-title="The malkin special" data-message="Dear Malkin Ji, your complaint has been received, carefully read, and forwarded to the Babu Department for immediate improvement. With respect, one slightly nervous Yogu Babu. 🫡"><span class="emoji">👑</span><h3>The Malkin special</h3><p>Respectfully reporting to the queen of this website.</p></button>
+</div></section>
+<section id="jar"><div class="section-head"><div class="kicker">pick a little heart</div><h2>A jar full of tiny notes</h2><p>Every tap opens a different little thought. Keep picking until you find your favourite.</p></div><div class="panel jar-wrap"><button id="jarBtn" aria-label="Open a random note" style="border:0;background:none"><span class="jar">🫙</span></button><div class="jar-hint">Tap the jar to pick a note ✨</div><div class="note" id="note">“You matter. Even when things feel messy, that doesn't change.”</div></div></section>
+
+<section id="memories"><div class="section-head"><div class="kicker">little moments, big place in my heart</div><h2>Our Little World ♡</h2><p>Some moments are too precious to leave inside a camera roll. Here are a few I'd love to keep close.</p></div>
+<div class="memory-grid">
+  <article class="memory-card"><div class="memory-frame"><img src="memories/photo-1.jpg" alt="A favourite memory together, photo one" onerror="this.style.display='none';this.nextElementSibling.style.display='block'"><div class="memory-placeholder" style="display:none"><span style="font-size:2.2rem">📸</span><strong>Our Moment 01</strong>Add your first photo as <code>photo-1.jpg</code> inside the memories folder.</div></div><div class="memory-caption"><h3>One of my favourite moments</h3><p>A little memory I wish I could pause for a bit longer. ♡</p></div></article>
+  <article class="memory-card"><div class="memory-frame"><img src="memories/photo-2.jpg" alt="A favourite memory together, photo two" onerror="this.style.display='none';this.nextElementSibling.style.display='block'"><div class="memory-placeholder" style="display:none"><span style="font-size:2.2rem">🌷</span><strong>Our Moment 02</strong>Add your second photo as <code>photo-2.jpg</code> inside the memories folder.</div></div><div class="memory-caption"><h3>A moment worth keeping</h3><p>Not just a photo, but a tiny piece of a happy day. 💗</p></div></article>
+  <article class="memory-card video-card"><div class="memory-frame video-frame"><video controls playsinline preload="metadata" aria-label="A six-second memory video"><source src="memories/our-moment.mp4" type="video/mp4">Your browser does not support video playback.</video></div><div class="memory-caption"><h3>Six seconds of happiness 🎬</h3><p>A little clip, a lovely memory, and a moment I'd happily replay.</p></div></article>
+</div>
+<p class="gallery-note">These memories are private to the people you choose to share the website link with only in the sense that the link is unlisted; a public GitHub Pages site is not password-protected. Only upload photos and video that both of you are comfortable sharing.</p>
+</section>
+
+<section id="promises"><div class="section-head"><div class="kicker">more than words</div><h2>Little things I'll try to do better</h2><p>Trust is built in the small moments. These are reminders for me, not demands from you.</p></div>
+<div class="promise-list"><div class="promise"><b>01</b><span>Listen to understand, instead of rushing to defend myself.</span></div><div class="promise"><b>02</b><span>Be thoughtful with my words, especially when emotions are high.</span></div><div class="promise"><b>03</b><span>Respect your space and your pace. No pressure to reply.</span></div><div class="promise"><b>04</b><span>Let my actions show the change, not just this page.</span></div></div></section>
+<section id="letter"><div class="section-head"><div class="kicker">a little note, just for you</div><h2>From your Yogu Babu</h2></div><article class="letter"><div class="hand">Dear Yogyata, my Malkin Ji,</div>
+<p>I made this little website because I wanted to say sorry in a way that felt a bit more thoughtful than sending one ordinary message.</p>
+<p>I know that being sorry isn't the same as making things right. I don't want to minimise whatever you felt, and I don't expect a website, a joke, or a pretty paragraph to make everything disappear.</p>
+<p>I just want you to know that you are important to me. I'm grateful for the smiles, the silly moments, and all the little things that make you <em>you</em>. If I hurt you, I'm sorry. I want to learn from it and be more careful with your feelings.</p>
+<p>Take all the time you need. You don't owe me an instant reply or forgiveness. I hope this brings even the tiniest smile to your face.</p>
+<div class="sign">With care (and a little nervousness),<br>Your Yogu Babu ♡</div></article></section>
+<section id="surprise"><div class="panel final-card"><span class="surprise">🎁</span><div class="kicker">one last little thing</div><h2>A surprise for Malkin Ji</h2><p>There may not be a perfect way to say sorry. But there can always be an honest beginning, a little kindness, and an effort to do better.</p><button class="btn" id="surpriseBtn">Open your surprise ✨</button><div class="tiny">Made with care, just for you ♡</div></div></section>
+</main>
+<footer class="footer">A tiny corner of the internet, made for <strong>Yogyata (Malkin Ji)</strong> · with love from Yogu Babu ♡</footer>
+<div class="toast" id="toast">A little message for you ♡</div>
+<div class="modal" id="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle"><div class="modal-card"><div style="font-size:3rem" id="modalEmoji">💖</div><h3 id="modalTitle">A little surprise</h3><p id="modalText">You deserve kindness, patience and a whole sky full of good things.</p><button class="btn secondary" id="closeModal">Close with a hug ♡</button></div></div>
+<script>
+const notes=[
+"Even on a cloudy day, you deserve gentleness. 🌷",
+"Officially requesting one tiny smile from Malkin Ji. No pressure though. 🥹",
+"You don't have to be okay immediately. Take your time. 💗",
+"Your feelings are not 'too much'. They matter.",
+"One day, one conversation, one better choice at a time. ✨",
+"Sending a pocket-sized hug. Keep it for whenever you need it. 🧸",
+"Reminder from the Babu Department: listen first, speak gently. 🫡",
+"You're appreciated for who you are, not for how quickly you forgive. 💜",
+"May your day be softer than a cloud and sweeter than your favourite treat. ☁️"
+];
+let noteIndex=0;
+document.querySelectorAll('.tile').forEach(card=>card.addEventListener('click',()=>{
+ document.getElementById('modalTitle').textContent=card.dataset.title;
+ document.getElementById('modalText').textContent=card.dataset.message;
+ document.getElementById('modalEmoji').textContent=card.querySelector('.emoji').textContent;
+ document.getElementById('modal').classList.add('open');burst(12);
+}));
+document.getElementById('jarBtn').addEventListener('click',()=>{
+ let next=Math.floor(Math.random()*notes.length);if(notes.length>1&&next===noteIndex)next=(next+1)%notes.length;noteIndex=next;
+ const el=document.getElementById('note');el.animate([{opacity:.2,transform:'translateY(8px)'},{opacity:1,transform:'translateY(0)'}],{duration:350});
+ el.textContent='“'+notes[noteIndex]+'”';burst(5);
+});
+const modal=document.getElementById('modal');document.getElementById('closeModal').addEventListener('click',()=>modal.classList.remove('open'));
+modal.addEventListener('click',e=>{if(e.target===modal)modal.classList.remove('open')});
+document.addEventListener('keydown',e=>{if(e.key==='Escape')modal.classList.remove('open')});
+document.getElementById('surpriseBtn').addEventListener('click',()=>{
+ document.getElementById('modalTitle').textContent='A little wish for you, Yogyata 💗';
+ document.getElementById('modalText').textContent='May you always feel valued, understood and free to be yourself. And if I get another chance to make things better, I hope I use it with patience, honesty and care. You are not asked to forgive me today. This is simply my little way of saying: I am sorry, and you matter.';
+ document.getElementById('modalEmoji').textContent='🌸💫💗';modal.classList.add('open');burst(35);
+});
+function burst(count){const symbols=['♡','💗','✨','🌸','💜'];for(let i=0;i<count;i++){const s=document.createElement('span');s.className='floating';s.textContent=symbols[Math.floor(Math.random()*symbols.length)];s.style.left=Math.random()*100+'vw';s.style.fontSize=(14+Math.random()*20)+'px';s.style.animationDuration=(3+Math.random()*3)+'s';document.body.appendChild(s);setTimeout(()=>s.remove(),6500)}}
+setInterval(()=>{if(Math.random()>.55)burst(1)},2600);
+</script>
+</body></html>
